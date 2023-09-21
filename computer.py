@@ -1,6 +1,7 @@
 """
 Name: Destiny Cecchi Samuels
 Professor: Jordan Crouser and Johanna
+* Code help from CSC TA's 
 
 Computer class that builds computers with attributes: description, processor type, 
 hard drive capacity, memory, operating system, year, and price.

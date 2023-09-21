@@ -1,6 +1,13 @@
 from computer import *
-from typing import Dict, Union, Optional
 
+"""
+Name: Destiny Cecchi Samuels
+Professor: Jordan Crouser and Johanna
+* Code help from CSC TA's 
+
+Resale Shop that buys, refurbish, and sells computers! 
+
+"""
 class ResaleShop:
 
     # What attributes will it need?
@@ -78,29 +85,31 @@ class ResaleShop:
 """
 Just to see if it works!
 """
-def main():
-    computer1 = Computer("ASUS Republic of Gamers",
-        "Intel Core I-7th Gen",
-        250, 60,
-        "Windows", 2017, 1000)
-    computer2 = Computer("MacBook Air",
-        "Apple Chip M1",
-        1024, 8,
-        "macOS Big Sur", 2020, 1000)
+# def main():
+#     computer1 = Computer("ASUS Republic of Gamers",
+#         "Intel Core I-7th Gen",
+#         250, 60,
+#         "Windows", 2017, 1000)
+#     computer2 = Computer("MacBook Air",
+#         "Apple Chip M1",
+#         1024, 8,
+#         "macOS Big Sur", 2020, 1000)
     
-    testShop = ResaleShop()
+#     testShop = ResaleShop()
 
-    testShop.buy(computer1)
-    testShop.printInventory(computer1)
-    testShop.buy(computer2)
-    testShop.printInventory(computer2)
+#     testShop.buy(computer1)
+#     testShop.printInventory(computer1)
+
+#     testShop.buy(computer2)
+#     testShop.printInventory(computer2)
+
+#     testShop.refurbish(computer2)
+#     testShop.printInventory(computer2)
+
+#     testShop.updateOS(computer1, "XYZ")
+#     testShop.printInventory(computer1)
+
+#     testShop.sell(computer1)
+#     testShop.printInventory(computer1)
     
-    testShop.sell(computer1)
-    testShop.printInventory(computer1)
-    testShop.refurbish(computer2)
-    testShop.printInventory(computer2)
-   
-    testShop.updateOS(computer1, "XYZ")
-    testShop.printInventory(computer1)
-    
-main()
+# main()
